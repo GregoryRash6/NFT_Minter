@@ -17,13 +17,16 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v3.4
 3. Set contract to ERC721 for Non-Fungible Tokens.
 4. Initialize counter for contract.
 5. Assign counter to variable token ID's.
-6. Construct NFT using eRC721 protocol.
-7. Create a function to mint the NFT's.
-8. Increment the counter.
-9. Assign Token ID's.
-10. Mint tokens.
-11. Set token URI.
-12. Return token ID.
+6. Create unique identifier based off hash value
+7. Construct NFT using eRC721 protocol.
+8. Create a function to mint the NFT's.
+9. Ensure NFT based on the provided token URI has not previously been created 
+10. Increments the counter to one to prevent a second NFT from being minted
+11. Increment the counter.
+12. Assign Token ID's.
+13. Mint tokens.
+14. Set token URI.
+15. Return token ID.
 
 #### Here is an image of a completed comtract
 ![Contract](Resources/Contract.png)
